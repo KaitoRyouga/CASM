@@ -3,7 +3,7 @@
 >
 > **_Cập nhật lần cuối: 14/11/2018_**
 ----
-###1.Lệnh NOP
+### 1.Lệnh NOP
 >     Cú pháp lệnh:
     NOP
 ----
@@ -11,7 +11,7 @@
 
 - Delay 1 chu kỳ máy
 
-###2.Lệnh PUSH
+### 2.Lệnh PUSH
 >     Cú pháp lệnh:
     PUSH
 ----
@@ -19,7 +19,7 @@
 
 - Cất dữ liệu vào ngăn xếp
 
-###3.Lệnh POP
+### 3.Lệnh POP
 >     Cú pháp lệnh:
     POP
 ----
@@ -27,7 +27,7 @@
 
 - Lấy dữ liệu ra khỏi ngăn xếp
 
-###4.Lệnh CALL
+### 4.Lệnh CALL
 >     Cú pháp lệnh:
      CALL [nhãn]
 ----
@@ -37,7 +37,7 @@
 
 - Gọi chương trình con tại vị trí xác định bởi nhãn
 
-###5.Lệnh RET
+### 5.Lệnh RET
 >     Cú pháp lệnh:
     RET [n]
 ----
@@ -49,7 +49,7 @@
 
 - Trong trường hợp lệnh RET có hằng số n theo sau thì sẽ cộng với thanh ghi SP giá trị n (n phải là số chẵn). Lệnh này dùng để loại bỏ một số tham số chương trình con sử dụng ra khỏi stack.
 
-###6.Lệnh Mov
+### 6.Lệnh Mov
 
 >     Cú pháp lệnh:
     Mov      [Toán hạng đích], [Toán hạng nguồn]
@@ -64,7 +64,7 @@
 
 - Lấy nội dung (giá trị) của [Toán hạng nguồn] đặt vào [Toán hạng đích]. Nội dung của [Toán hạng nguồn] không bị thay đổi.
 
-###7.Lệnh Lea
+### 7.Lệnh Lea
 >     Cú pháp lệnh:
     LEA     [Toán hạng đích],[Toán hạng nguồn]
 ----
@@ -76,7 +76,7 @@
 
 - Lệnh LEA có tác dụng chuyển địa chỉ offset của [Toán hạng nguồn] vào [Toán hạng đích]. Lệnh này thường được sử dụng để lấy địa chỉ offset của một biến đã được khai báo trong chương trình. Thanh ghi được sử dụng trong trường hợp này là thanh ghi cơ sở (BX) và thanh ghi chỉ mục (SI và DI).   
 
-###8.Lệnh Add và SUB
+### 8.Lệnh Add và SUB
 >     Cú pháp lệnh:
     Add       [Toán hạng đích],[Toán hạng nguồn]
     Sub       [Toán hạng đích],[Toán hạng nguồn]
